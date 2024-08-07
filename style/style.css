@@ -282,3 +282,9 @@
     font-size: 20px;
   }
 }
+
+@media (max-width:560px) {
+  .home{
+    padding: 120px 25px 40px;
+  }
+}
