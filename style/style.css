@@ -29,6 +29,10 @@
   z-index: 99;
 }
 
+.scrollbtn {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 .nav-content {
   max-width: 1300px;
   margin: 0 auto;
@@ -144,7 +148,6 @@
   padding: 40px 25px;
   display: flex;
   align-items: center;
-
 }
 
 .home-content {
@@ -313,7 +316,7 @@
   color: var(--color-black4);
 }
 
-.sambutan-text h2 span{
+.sambutan-text h2 span {
   color: var(--color-blue);
   font-weight: 600;
 }
@@ -358,18 +361,18 @@
   color: var(--color-black2);
 }
 
-.sambutan-text h4{
+.sambutan-text h4 {
   font-size: 14px;
-  letter-spacing: .03rem;
+  letter-spacing: 0.03rem;
 }
 
-.social-media{
+.social-media {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.social-media i{
+.social-media i {
   font-size: 24px;
   color: var(--color-blue);
 }
@@ -402,5 +405,4 @@
 }
 
 @media (max-width: 560px) {
-
 }
