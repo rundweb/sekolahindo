@@ -138,24 +138,26 @@
 
 .home {
   max-width: 1300px;
-  padding:  120px 25px 40px;
-  margin: 0 auto;
   width: 100%;
   min-height: 100vh;
+  margin: 0 auto;
+  padding: 40px 25px;
   display: flex;
   align-items: center;
+
 }
 
 .home-content {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 80px;
 }
 
 .home-list-1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 60px;
+  gap: 40px;
   align-items: center;
 }
 
@@ -260,17 +262,18 @@
 /* sambutan */
 .sambutan {
   max-width: 1300px;
+  width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 0 25px 40px;
+  padding: 40px 25px;
   display: flex;
   align-items: center;
-  min-height: 100vh;
 }
 
 .sambutan-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 60px;
+  gap: 40px;
   align-items: center;
 }
 
@@ -310,6 +313,11 @@
   color: var(--color-black4);
 }
 
+.sambutan-text h2 span{
+  color: var(--color-blue);
+  font-weight: 600;
+}
+
 .sambutan-text a {
   margin: 10px 0;
   background-color: var(--color-blue);
@@ -339,7 +347,7 @@
   padding: 20px;
   border: 2px solid var(--color-black7);
   border-radius: 8px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .sambutan-text2 h3 {
@@ -352,8 +360,18 @@
 
 .sambutan-text h4{
   font-size: 14px;
-  text-align: justify;
   letter-spacing: .03rem;
+}
+
+.social-media{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media i{
+  font-size: 24px;
+  color: var(--color-blue);
 }
 
 /* responsive */
@@ -384,7 +402,5 @@
 }
 
 @media (max-width: 560px) {
-  .home {
-    padding: 120px 25px 40px;
-  }
+
 }
